@@ -15,4 +15,8 @@ done
 else
 echo "flaga nieznana"
 fi
-
+if [[ "$1" == "--help" ]]; then
+echo "opcje"
+echo " --date wyświetla dzisiejszą datę"
+echo "--logs tworzy 100 plików log_X.txt gdzie X to numer pliku"
+echo "--logsX tworzy X plików j/w "
